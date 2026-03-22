@@ -1,0 +1,30 @@
+# AWS系
+*.pem
+
+# 環境変数
+.env
+
+# OS系
+.DS_Store
+
+# エディタ
+.vscode/
+.idea/
+
+# ログ
+*.log
+
+.terraform/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Crash logs
+crash.log
+
+# OS
+.DS_Store
+Thumbs.db
