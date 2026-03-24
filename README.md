@@ -1,16 +1,15 @@
-# AWS ALB + EC2 + RDS のWeb三層構成
+# AWS ALB + EC2 + Nginx 構成
 
 ## ■ 概要
-AWS上でALB、EC2、RDSからなるWeb三層構成をTerraformを用いて構築しました。
+AWS上でALBを経由してEC2のNginxにアクセスできる構成を構築しました。
 
 ## ■ 構成図
-User → ALB → EC2(Nginx + アプリケーション) → RDS
+User → ALB → EC2 → Nginx
 
 ## ■ 使用技術
 - AWS
   - ALB
   - EC2
-  - RDS
   - VPC
   - Security Group
 - Nginx
